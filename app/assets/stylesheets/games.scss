@@ -1,3 +1,58 @@
 // Place all the styles related to the Games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background-color: #F4F4F4;
+}
+
+h1 {
+  font-size: 28px;
+  color: #303030;
+  font-family: Open Sans;
+  font-weight: 400px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #303030;
+  font-family: Open Sans;
+  font-weight: 400px;
+}
+
+p {
+  font-size: 20px;
+  color: #303030;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+
+#text {
+  font-size: 30px;
+  color: #303030;
+  font-family: Open Sans;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#bar {
+  width: 40%;
+  height: 30px;
+}
+
+#button {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#button:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}

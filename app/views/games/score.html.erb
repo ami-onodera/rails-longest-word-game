@@ -1,4 +1,17 @@
+<html>
+<head>
+<title>Score</title>
+<link rel="stylesheet" type="text/css" href="app/assets/stylesheets/games.scss">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
 <h1>Result</h1>
 <p>You took <%= Time.at(@time_needed ).utc.strftime("%H:%M:%S") %> to form a word.</p>
 <p><%= @message  %></p>
-<%= link_to 'Play again', '/new' %>
+<footer>
+  <%= link_to 'Play again', '/new' %>
+</footer>
+
+</body>
+</html>
